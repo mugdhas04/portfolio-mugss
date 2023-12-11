@@ -1,0 +1,86 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #1a1a1a; /* Dark background */
+  color: #fff; /* White text */
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  border-bottom: 2px solid #fff; /* Border under the header */
+}
+
+h1 {
+  margin: 0;
+  font-size: 2.5em;
+  border-bottom: 1px solid #ddd; /* Underline for h1 */
+}
+
+p {
+  margin: 10px 0;
+  line-height: 1.6;
+}
+
+nav {
+  background-color: #444;
+  padding: 10px;
+  text-align: center;
+  border-bottom: 2px solid #fff; /* Border under the navigation */
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.2em;
+  transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+  color: #ffd700; /* Gold on hover */
+}
+
+section {
+  padding: 40px;
+  border-bottom: 1px solid #ddd; /* Border under each section */
+}
+
+h2 {
+  color: #ddd; /* Light grey for section headings */
+  border-bottom: 1px solid #ddd; /* Underline for h2 */
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  border-top: 2px solid #fff; /* Border above the footer */
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 600px) {
+  nav li {
+      display: block;
+      margin: 10px 0;
+  }
+}
+
